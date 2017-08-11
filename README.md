@@ -1,9 +1,13 @@
 # Bamazon
-##A Meka Knepley Project
 
-Bamazon Customer is a nodeJS app backed by a MySQL database. It is created with a table inside of the database called products. The products table
-has the following columns: item_id, product name, department name, price to the customer, and stock quantity. The
-database is populated with ten different products. The app prompts users with two questions. The first question is what ID of
+Bamazon Customer is a nodeJS app backed by a MySQL database. It is created with a table inside of the database called products. The products table has the following columns:
+* item_id
+* product name
+* department name
+* price to the customer,
+* stock quantity
+
+The database is populated with ten different products. The app prompts users with two questions. The first question is what ID of
 the product they would like to buy. The second question is how many units of the product does the user want to buy. Once the
 customer has placed the order, Bamazon checks if the store has enough of the product to the meet the customer's request.
 If not, Bamazon will log a phrase that says "Insufficient Quantity", and then prevents the order from going through. If
