@@ -1,8 +1,6 @@
-# bamazon
-bamazon project
+# Bamazon
+##A Meka Knepley Project
 
-
-                                             #**BAMAZON**
 Bamazon Customer is a nodeJS app backed by a MySQL database. It is created with a table inside of the database called products. The products table
 has the following columns: item_id, product name, department name, price to the customer, and stock quantity. The
 database is populated with ten different products. The app prompts users with two questions. The first question is what ID of
