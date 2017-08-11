@@ -1,5 +1,6 @@
 # Bamazon
 
+## Bamazon Customer
 Bamazon Customer is a nodeJS app backed by a MySQL database. It is created with a table inside of the database called products. The products table has the following columns:
 * item_id
 * product name
@@ -14,9 +15,12 @@ If not, Bamazon will log a phrase that says "Insufficient Quantity", and then pr
 the store does enough of the product, then the customer's order will be fulfilled. Also, the SQL database will be updated to reflect the
 remaining quantity. Once the update goes through, the store will show the customer the total cost of their purchase.
 
-Bamazon Manager is a nodeJS app backed by a MySQL database. It lists a set of menu options that shows four options: "View Products for Sale",
-"View low inventory", "Add to Inventory", and "Add New Product". When a manager selects
-"View Products for Sale", the app will list every available item showing the item IDs, names, department, prices, and quantity in stock. If a manager selects
-"View Low Inventory", the app will list all items with an inventory count lower than five. If a manager selects "Add to Inventory",
-then the customer will display a prompt that will let the manager add more of any item currently in the store. If the
-manager selects "Add New Product", the app will allow the manager to add a completely new product to the store.
+## Bamazon Manager
+Bamazon Manager is a nodeJS app backed by a MySQL database.
+It lists a set of menu options that shows four options:
+1. "View Products for Sale"
+1. "View low inventory"
+1. "Add to Inventory"
+1. "Add New Product"
+
+When a manager selects "View Products for Sale", the app will list every available item showing the item IDs, names, department, prices, and quantity in stock. If a manager selects "View Low Inventory", the app will list all items with an inventory count lower than five. If a manager selects "Add to Inventory", then the customer will display a prompt that will let the manager add more of any item currently in the store. If the manager selects "Add New Product", the app will allow the manager to add a completely new product to the store.
