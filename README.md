@@ -19,12 +19,13 @@ remaining quantity. Once the update goes through, the store will show the custom
 ![alt text](https://raw.githubusercontent.com/mekaknepley/bamazon/master/mysqlSetup.gif "MySQL Setup")
 
 ### Bamazon Customer NodeJS Operation
+![alt text](https://raw.githubusercontent.com/mekaknepley/bamazon/master/bamazonCustomer.gif "Bamazon Customer")
 
 ## Bamazon Manager
 Bamazon Manager is a nodeJS app backed by a MySQL database.
 It lists a set of menu options that shows four options:
 1. "View Products for Sale"
-1. "View low inventory"
+1. "View Low Inventory"
 1. "Add to Inventory"
 1. "Add New Product"
 
