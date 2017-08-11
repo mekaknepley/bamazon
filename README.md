@@ -10,10 +10,16 @@ Bamazon Customer is a nodeJS app backed by a MySQL database. It is created with 
 
 The database is populated with ten different products. The app prompts users with two questions. The first question is what ID of
 the product they would like to buy. The second question is how many units of the product does the user want to buy. Once the
-customer has placed the order, Bamazon checks if the store has enough of the product to the meet the customer's request.
+customer has placed the order, Bamazon checks if the store has enough of the product tonode the meet the customer's request.
 If not, Bamazon will log a phrase that says "Insufficient Quantity", and then prevents the order from going through. If
 the store does enough of the product, then the customer's order will be fulfilled. Also, the SQL database will be updated to reflect the
 remaining quantity. Once the update goes through, the store will show the customer the total cost of their purchase.
+
+### MySQL Database Setup
+[![Alt text](https://img.youtube.com/vi/7h-jYa2Hysc/0.jpg)](https://www.youtube.com/watch?v=7h-jYa2Hysc)
+
+### Bamazon Custom NodeJS Operation
+[![Alt text](https://img.youtube.com/vi/5dwOOgTjuBc/0.jpg)](https://www.youtube.com/watch?v=5dwOOgTjuBc)
 
 ## Bamazon Manager
 Bamazon Manager is a nodeJS app backed by a MySQL database.
